@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  
+}
+h1 {
+  text-align: center;
+  color: #01937C;
+  font-size:55px;
+  margin: 0 auto 50px;
+}
+.container {
+  display: flex;
+  margin: 50px auto;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 5px grey;
+  padding: 5px;
+  background: #FAF1E6;
+  width: 80%;
+}
+.container > * {
+  margin: auto;
+  border-radius: 5px;
+}
+
+.card2:hover{
+  transform: scale(1.5,1.7);
+}
